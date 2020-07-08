@@ -18,7 +18,7 @@ url_update = (
 def check_now(a):
 	url = urls[a]
 	# print(url)
-	res = requests.get(url["url"])
+	res = requests.get(url["url"], verify=False)
 	file_path = "contents/" + url["name"]
 	try:
 		f = open(file_path, "r")
