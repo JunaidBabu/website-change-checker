@@ -1,0 +1,34 @@
+name: Website Checker
+
+on:
+  schedule:
+    # every 10 minutes the job will run
+    - cron: "*/10 * * * *"
+  push:
+    branches:
+      - master
+
+jobs:
+  update-json-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
+      - name: run
+        run: |
+          python3 main.py
+          echo "the job completed"
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v4
+        with:
+          author_name: Jun
+          author_email: bot@botplace.com
+          message: "some change"
+          add: "."
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
