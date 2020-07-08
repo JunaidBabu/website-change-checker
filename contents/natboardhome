@@ -1,0 +1,980 @@
+
+<style> 
+       .blink {
+      animation: blinker 0.6s linear infinite;
+      color: #1c87c9;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: sans-serif;
+      }
+      @keyframes blinker {  
+      50% { opacity: 0; }
+      }
+      .blink-one {
+      animation: blinker-one 1s linear infinite;
+      }
+      @keyframes blinker-one {  
+      0% { opacity: 0; }
+      }
+      .blink-two {
+      animation: blinker-two 1.4s linear infinite;
+      }
+      @keyframes blinker-two {  
+      100% { opacity: 0; }
+      }
+      }
+    </style>
+<script language="JavaScript">
+function dnb_validity()
+{
+obj=document.form2;
+
+if(obj.course.selectedIndex==0)
+{
+alert("Please select course");
+return false;
+}
+return true;
+}
+
+function isInteger()
+{  
+var s=document.form3.cell_no.value;
+ var i;
+    $j=s.length;
+	if($j<=10)
+	{
+	
+	for (i = 0; i < 9; i++)
+	{ 
+	   var c = s.charAt(i);
+        if (((c < "0") || (c > "9"))) 
+		{
+		alert("Please enter number 9868676767 formate");
+		return false
+		}
+	}
+	}	    
+		return true;
+		
+
+	
+}
+
+
+
+
+function validate()
+{
+fobj=document.form1;
+
+if(fobj.select.selectedIndex == 0)
+{
+alert("Please select course");
+return false;
+}
+if(fobj.textfield.value=="")
+{
+alert("Please enter roll no");
+return false;
+}
+return true;
+}
+var newwindow;
+function poptastic(url)
+{
+	newwindow=window.open(url,'name','height=300,width=750,left=100, top=100,resizable=yes,scrollbars=yes,toolbar=no,status=no');
+	if (window.focus) {newwindow.focus()}
+}
+
+</script>
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Welcome To National Board Of Examination</title>
+
+<meta name="verify-v1" content="DRRzP3pznQDYAF8/DI342nHjnhjYBvygqwFvldjToX0=" />
+<link href="stylesheet.css" rel="stylesheet" type="text/css">
+
+
+<!----------------------------------------------------------------------->
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+  right: 0;
+    z-index: 1; /* Sit on top */
+    padding-top: 350px; /* Location of the box */
+    left: 0;
+    top:0%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content1 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close1 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+#closeit1{
+     text-decoration: none;
+    cursor: pointer;
+    color:#aaaaaa;
+    font-weight:bold;
+    font-size:25px;
+}
+#closeit1:hover,focus{
+     color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+    <!------------------------------------------------------------------->
+    <div id="myModal1" class="modal1">
+  <!-- Modal content -->
+  <div class="modal-content1" style="background-color:#004466; color:#ffff00">
+    <span class="close1">&times;</span>
+   <p align="justify">
+Result of DNB Practical Exam, December 2019 session has been declared in the specialty of Community Medicine , OBGY(SVMC-Tirupati, Safdarjung Hospital-New Delhi, Bangalore Baptist Hospital-Bengaluru), Orthopaedics(SVMC-Tirupati), Pathology(Army Hospital-R&R), General Medicine(AFMC-Pune & Yashoda Hospital-Secunderabad) and Anesthesiology (AFMC-Pune).</p>
+   
+     <center><span id='closeit1'>OK</span></center>
+  </div>
+
+</div>
+<script>
+// Get the modal
+var modal1 = document.getElementById('myModal1');
+// Get the button that opens the modal
+var btn1 = document.getElementById("myBtn1");
+// Get the <span> element that closes the modal
+var span1 = document.getElementsByClassName("close1")[0];
+var ok1 = document.getElementById("closeit1");
+// When the user clicks the button, open the modal 
+function display_alert2(){
+    modal1.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span1.onclick = function() {
+    modal1.style.display = "none";
+}
+ok1.onclick = function() {
+    modal1.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal1) {
+        modal1.style.display = "none";
+    }
+    
+}
+</script>
+    <!------------------------------------------------------------------>
+    
+    
+<table width="909"  border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td valign="top"><html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <script src="bootstrap/jquery.min.js"></script>
+  <script src="bootstrap/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="index.ico" type="image/x-icon">
+<link rel="icon" href="index.ico" type="image/x-icon">
+<style>
+body {
+	font-family: Arial;
+	}
+
+
+.tab {
+    overflow: hidden;ma
+    border: 1px solid #ccc;
+    background-color: #31577C;mar
+}
+
+.tab button {
+    background-color:#31577C;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 14px;
+    transition: 0.3s;
+    font-size: 12px;
+	color:white;
+
+}
+
+
+.tab button:hover {
+    background-color: #2261a0;
+    color:#FFFF00;
+
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+table, td {
+    border: 1px #17416B;
+    border-collapse: collapse;
+
+
+
+</style>
+</head>
+<body>
+<table align="center">
+<tr>
+<td>
+<div width="800" align="center">
+
+<img src="images/35yesars -NBE.jpg"  width="909" height="120"/>
+
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="tab" width="700" align="center">
+<button  onclick="window.location.href='https://natboard.edu.in/'"  name="HOME">HOME</button>
+<button  onclick="window.location.href='application_status.php'"  name="APPLICATION STATUS">APPLICATION STATUS</button>
+<button  onclick="window.location.href='http://exam.natboard.edu.in'"  name="PRACTICAL EXAM CENTER">EXIT EXAM ONLINE</button>
+<button  onclick="window.location.href='https://accr.natboard.edu.in/online_user/frontpage.php'"  name="ACCREDITATION">ACCREDITATION ONLINE</button>
+<button  onclick="window.location.href='thesisonline/index.php'"  name="THESIS">&nbsp;&nbsp;&nbsp;THESIS &nbsp;&nbsp;&nbsp;</button>
+<button  onclick="window.location.href='https://cns.natboard.edu.in'"  name="COUNSELING & REGISTRATION">COUNSELING & REGISTRATION </button>
+
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div width="800" align="center">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+       <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+             <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                   <li data-target="#myCarousel" data-slide-to="7"></li>
+                      <li data-target="#myCarousel" data-slide-to="8"></li>
+                         <li data-target="#myCarousel" data-slide-to="9"></li>
+                            <li data-target="#myCarousel" data-slide-to="10"></li>
+                            
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/1/1/1.jpg" alt="" height="150">
+    </div>
+
+   <div class="item">
+      <img src="images/1/1/2.jpg" alt="" height="150">
+    </div>
+    
+    <div class="item">
+      <img src="images/1/1/3.jpg" alt="" height="150">
+    </div>
+    
+    <div class="item">
+      <img src="images/1/1/4.jpg" alt="" height="150">
+    </div>
+    
+    <div class="item">
+      <img src="images/1/1/5.jpg" alt="" height="150">
+    </div>
+    
+    <div class="item">
+      <img src="images/1/1/6.jpg" alt="" height="150">
+    </div>
+    
+    <div class="item">
+      <img src="images/1/1/7.jpg" alt="" height="150">
+    </div>
+    
+    <div class="item">
+      <img src="images/1/1/8.jpg" alt="" height="150">
+    </div>
+    
+    <div class="item">
+      <img src="images/1/1/9.jpg" alt="" height="150">
+    </div>
+    
+    <div class="item">
+      <img src="images/1/1/10.jpg" alt="" height="150">
+    </div>
+    
+    <div class="item">
+      <img src="images/1/1/11.jpg" alt="" height="150">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+	<table width="909" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+			<td width="150" height="31" valign="middle" bgcolor="#31577C"><div id="news"></div>
+				<span style=" font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#FFF; font-weight:bold; padding-left:60px;">Flashnews</span>
+
+			</td>
+
+			<td width="759" bgcolor="#31577C"> <a href=#><MARQUEE style="width:759px; "scrolldelay="100" scrollamount="3" direction="left" loop="true" onclick="display_alert2();" onMouseOut="this.start();">
+				<p style="color:#FFFF00">
+				    Result of DNB Practical Exam, December 2019 session has been declared in the specialty of Community Medicine , OBGY(SVMC-Tirupati, Safdarjung Hospital-New Delhi, Bangalore Baptist Hospital-Bengaluru), Orthopaedics(SVMC-Tirupati), Pathology(Army Hospital-R&R), General Medicine(AFMC-Pune & Yashoda Hospital-Secunderabad) and Anesthesiology (AFMC-Pune).				    
+				</p></marquee></a>
+			</td>
+        </tr>
+    </table>
+
+</td>
+</tr>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160598012-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-160598012-1');
+</script>
+
+</body>
+</html>
+</td>
+        </tr>
+        <tr> 
+          <td valign="top"><table width="909"  border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+              <tr> 
+                <td width="230" valign="top"> 
+                  <link rel="stylesheet" type="text/css" href="left_menu/anylinkcssmenu.css" />
+
+<script type="text/javascript" src="left_menu/anylinkcssmenu.js">
+
+/***********************************************
+* AnyLink CSS Menu script v2.0- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Project Page at http://www.dynamicdrive.com/dynamicindex1/anylinkcss.htm for full source code
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+//anylinkcssmenu.init("menu_anchors_class") ////Pass in the CSS class of anchor links (that contain a sub menu)
+anylinkcssmenu.init("anchorclass")
+</script>
+
+<script language="javascript" type="text/javascript" src="left_menu/minisite.js"></script>
+
+<table width="229"  border="0" cellpadding="0" cellspacing="0i">
+
+<tr>
+  <td valign="middle" bgcolor="#17416B" height="31">
+  <span style="font-family:Verdana, Geneva, sans-serif; font-size:16px; color:#FFF; font-weight:bold; padding-left:15px;">Quick Links</span></td>
+</tr>
+
+
+  <tr> 
+    
+    <td>
+  <DIV class=urbangreymenu>
+      <UL>
+          <LI><A href="http://exam.natboard.edu.in">FNB Exit/ DNB Final Exam</A> </LI>
+          <LI><A href="https://cdn3.digialm.com//EForms/configuredHtml/1815/61896//Index.html"><strong>FET 2019</strong></A></LI>
+           
+         <LI><A href="https://cdn3.digialm.com//EForms/configuredHtml/1815/60508/Index.html" target=blank><strong>NEET-SS 2019</strong></A></LI>
+       
+        <!--  <LI><A href="https://cdn3.digialm.com//EForms/configuredHtml/1815/55946//Index.html"><strong>DNB CET June 2018 </strong></A></LI>-->
+           <LI><A href="http://counseling.nbe.edu.in/" target=blank><strong>Online Counseling</strong></A></LI>
+     
+      <!--<LI><A href="https://copt.natboard.edu.in/"><strong>OPTOUT <font size=1> for CET-SS,FET & PDCET</font></strong></A></LI>-->
+      
+      <LI><A href="https://cetss.nbe.edu.in/"><strong>DNB CET-SS WEBSITE </strong></A></LI>
+    <!--  <LI><A href="https://cdn3.digialm.com//EForms/configuredHtml/1815/57907//Index.html "><strong>NEET PG 2019 </strong></A></LI>-->
+    
+    <LI><A href="https://cdn3.digialm.com//EForms/configuredHtml/1815/63104//Index.html "><strong>NEET PG 2020 </strong></A></LI>
+
+
+   <!--   <LI><A href="https://cdn3.digialm.com//EForms/configuredHtml/1815/58074//Index.html"><strong>NEET MDS 2019 </strong></A></LI>-->
+      
+      <LI><A href="https://cdn3.digialm.com//EForms/configuredHtml/1815/63027/Index.html"><strong>NEET MDS 2020 </strong></A></LI>
+
+     <!-- <LI><A href="https://cdn3.digialm.com//EForms/configuredHtml/1815/58006//Index.html"><strong>PDCET Dec 2018</strong></A></LI>-->
+
+            <LI><A href="https://cdn3.digialm.com//EForms/configuredHtml/1815/63039/Index.html"><strong>PDCET Dec 2020</strong></A></LI>
+
+
+      <!--<LI><A href="https://cdn3.digialm.com//EForms/configuredHtml/1815/58007//Index.html"><strong>FMGE Dec 2018</strong></A></LI>-->
+     <!-- <LI><A href="https://cdn3.digialm.com//EForms/configuredHtml/1815/60431//Index.html"><strong>FMGE June 2019</strong></A></LI>-->
+      
+      <LI><A href="https://cdn3.digialm.com//EForms/configuredHtml/1815/63040/Index.html"><strong>FMGE December 2019</strong></A></LI>
+      
+      
+      <LI><A href="pdoof/pbnotice2019/FDG-ST 2019.pdf"><strong>Dental Screening Test</strong></A></LI>
+           <LI><A href="cme/appraisal/cmenotice.php"><strong>CME & Events</strong></A></LI>
+
+      <!--<LI><A href="https://www.awards.nbe.gov.in/"><strong>NBE AWARDS WEBSITE<img src="images/newz.gif" width="30" align="absbottom" border="0"></strong></A></LI>-->
+     <LI><A href="https://natboard.edu.in/convocation/20convo/index"><strong>20<sup>th</sup>Convocation</strong></A></LI>
+     <!-- <LI><A href="http://natboard.edu.in/convocation/19convo/"><strong>19<sup>th</sup>Convocation  </strong></A></LI>-->
+<!--<LI><A href="https://www.nbe.gov.in/cghsrt"><strong>CGHS WEBSITE <img src="images/newz.gif" width="35" align="absbottom" border="0">  </strong></A></LI>-->
+<!--<LI><A href="https://lucknow.nbexams.in/results/index.html"><strong>RESULT CGHS(Lucknow)<!-- <img src="images/newz.gif" width="35" align="absbottom" border="0">  </strong></A></LI>
+<LI><A href="http://delhi.nbexams.in/"><strong>RESULT CGHS(Delhi)<img src="images/newz.gif" width="35" align="absbottom" border="0"></strong></A></LI> -->
+  <!--  <LI><A href="https://www.results.nbe.gov.in/fmge"><strong>FMGE June-14 Results(Click here)<img src="images/newz.gif" width="35" align="absbottom" border="0"></strong></A></LI> 
+    <LI><A href="http://www.results.nbe.gov.in/pdcet"><strong>PDCET July-14 Results(Click here)<img src="images/newz.gif" width="35" align="absbottom" border="0"></strong></A></LI> 
+    <LI><A href="http://www.results.nbe.gov.in/cet"><strong>CET July-14 Results (Click here)<img src="images/newz.gif" width="35" align="absbottom" border="0"></strong></A></LI> 
+    <LI><A href="cet-super-specility_new.php"><strong>CET SS June-14 Session(Special) <img src="images/newz.gif" width="35" align="absbottom" border="0"></strong></A></LI> -->
+    <LI><A href="https://exam.natboard.edu.in/fmge_pass_certificate/">FMGE Pass Certificate Verification</A></LI>
+    <LI><A href="https://exam.natboard.edu.in/communication.php?page=main ">Communication Web Portal</A></LI>
+      <LI><A  class="anchorclass myownclass" href="Mouse.htm" rev="lr" rel="submenu1">Download Information Bulletin</A> </LI>
+      <LI><A href="dnb_equivalence_imp_notifications.php">DNB Equivalence Imp Notifications</A></LI>
+      
+    <!--  <LI><A href="admit_card.php">Download Admit Card</A> </LI>-->
+      <!--<LI><A href="dnb_practical_exam_center.php">DNB Practical Exam Center </A></LI>
+                            <LI><A href="news_board.php?cat=13">Counselling For DNB Seats</A> </LI>-->
+      <!--<LI><A href="news_board.php?cat=13">Counselling Schedule & Notice</A> </LI>-->
+      <LI><A href="dnb_old_qp">Old DNB Theory question Papers </A></LI>
+      <LI><A href="https://nbe.edu.in/curriculum.html">DNB Curriculum</A></LI>
+      <!--<LI><A href="thesis.php">Thesis Status</A> </LI>-->
+      <LI><A href="https://www.natboard.edu.in/cme/appraisal/index">Formative Assessment(DNB) </A></LI>
+   <!--<LI><A href="periodical_appraisal_for_dnb.php">Formative Assessment(DNB)</A></LI>
+     <LI><A href="accredition_with_nbe.php">Accreditation with NBE</A> </LI> -->
+      <LI><A href="pdoof/pbnotice2019/2019%20Information%20Bulletin.pdf?h88233erhx90wsd0q2wk2s2ks2weuigfu3g77844jh89de">Accreditation with NBE</A> </LI>
+               <LI><A href="http://www.astrocyte.in/">NBE Journal</A> </LI>   <!--   journal_of_pg_medical_education.php--> 
+     <!-- <LI><A href="news_board.php?cat=6">Accreditation Guidelines/Circulars</A> </LI>-->
+      <!--<LI><A href="photo_gallery.php">Photo Gallery</A></LI>
+                            <LI><A href="vcr.php">Virtual Class Room</A> </LI>-->
+      <!--<LI><A href="accreditation_status.php">Accreditation Status</A></LI>-->
+<LI><A class="anchorclass myownclass" href="rti.php" rev="lr" rel="submenu2">Annual Reports</A></LI>
+<!--<LI><A href="#">Examinations Calendar</A></LI>-->
+
+
+<LI><A class="anchorclass myownclass" href="Mouse.htm" rev="lr" rel="submenu3">Performance of Candidates in FMGE</A></LI>
+      <LI><A href="news_board.php?cat=10">Download</A></LI>
+      <LI><A href="useful_links.php">Useful Links</A></LI>
+      
+      
+      </UL>
+    </DIV>
+      
+      
+      
+      
+  <DIV class="anylinkcss" id="submenu1" style="BACKGROUND: #e9e9e9;">
+    <UL>
+      <LI>
+          <!-- <A href="fmge.php">FMGE</A> -->
+          <A href="https://drive.google.com/file/d/0B8W1Rb4lg8C3b0lzLTFFQnBwSTQ/view" target=blank>FMGE</A>
+        <LI>
+            <!--<A href="cet.php">DNB CET (Broad Speciality)</A>-->
+            <A href="https://cdn.digialm.com/per/g01/pub/1258/EForms/image/NEET-PG_2019.pdf" target=blank>NEET PG</A>
+            <LI>  <A href="https://drive.google.com/file/d/0B8W1Rb4lg8C3M3NES3BYemJDQlk/view" target=blank>NEET MDS</A></LI>
+          <LI><A href="https://drive.google.com/file/d/0B8W1Rb4lg8C3dnczdng2cjVvR0E/view" target=blank>POST DIPLOMA CET</A>
+          <LI><A href="https://drive.google.com/file/d/1kx4Nwp9INcNFxm_yR6N6FTMswS39b8Ct/view">DNB CET (Super Speciality)</A>
+          <LI><A href="dnbfinal.php">DNB Final (Broad Speciality)</A>
+          <LI><A href="dnbfinalsuper.php">DNB Final (Super Speciality)</A>
+          <LI><A href="dnbdental.php">DNB Dental Speciality</A>
+          <LI><A href="fellowship.php">Fellowship NBE</A>
+  </UL>
+    </DIV>
+      
+      
+      
+ 
+    
+    
+      <DIV class="anylinkcss" id="submenu3" style="BACKGROUND: #e9e9e9;">
+    <UL>
+          <LI><A href="pdoof/pnotice2015/FMGE MOHFW.pdf">Performance in FMGE 2012-14</A>
+          <LI><A href="https://natboard.edu.in/pdoof/pbnotice2019/FMGE_performance_report.pdf?h88233erhx90wsd0q2wk2s2ks2weuigfu3g77844jh89de">Performance in FMGE 2015-18</A>
+  </UL>
+    </DIV>
+      
+      
+    </td>
+  </tr>
+  
+  <tr>
+    <td valign="top">
+    
+   <!-- <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+
+<tr>
+  <td valign="middle" bgcolor="#17416B" height="31">
+  <span style="font-family:Verdana, Geneva, sans-serif; font-size:16px; color:#FFF; font-weight:bold; padding-left:15px;">Notice Category</span></td>
+</tr>
+			
+            <tr> 
+<td>
+                <DIV class=urbangreymenu>
+
+                          <UL>
+                                                    </UL></DIV>
+                
+                </td>
+
+              </tr>
+				 </table>-->
+    
+    </td>
+  </tr>
+
+</table>                </td>
+                <td width="679" align="right" valign="top"> 
+                <div style="margin-left:5px; width:672px;">
+                <table width="100%" border="0" align="right" cellpadding="0" cellspacing="0">
+                    <tr> 
+                      <td width="51%" align="left" valign="top"> <table width="99%" border="0" align="left" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td width="2"><img src="images/sub_title_bg_01.gif" width="2" height="32"></td>
+                                <td background="images/sub_title_bg_03.gif" class="subheading12px" >NBE Results</td>
+                                <td width="2"><img src="images/sub_title_bg_05.gif" width="2" height="32"></td>
+                              </tr>
+                            </table></td>
+                          </tr>
+                          <tr> 
+                                                        <td class="ch4"> 
+                            
+                            
+                            <form name="form1" method="post" action="result_query.php" onSubmit="return validate()" target="_blank">
+                              <table width="100%" border="1" align="right" cellpadding="2" cellspacing="2" >
+                               
+                               
+                             
+                                 <tr class="featuredhead" style='background-color:white'>
+                                   
+                                  
+                                  <td colspan="2" valign="top" class="hotadlinkshead" align="center"><br>  <font size="7px">
+                                  <table style="font-size:small"><tr><td>
+                                  <a href="https://results.natboard.edu.in/cetss/indexneetss2019.php">NEETSS</a></td><td>
+                                  <!--<a href="https://nbe.edu.in/Result/Login.aspx">--><a href="https://results.natboard.edu.in/neetpg/index">NEET-PG</a></td>
+                                  
+                                <td><a href="https://results.natboard.edu.in/neetmds/index">NEET-MDS</a></td>
+                                  </tr><tr>
+                                  <td><a href="https://results.natboard.edu.in/fet/index">FET</a></td>
+                                
+                                  <td><a href="https://results.natboard.edu.in/fmge/index">FMGE</a></td>
+                                  <td><a href="https://drive.google.com/open?id=1fpnZ_QQh2zNUKB53YBuL4DDgVHvilb7w">CET</a></td>
+                                  </tr><tr>
+                                  <td><a href="https://results.natboard.edu.in/pdcet/index">PDCET</td>
+                                  <td><a href="https://results.natboard.edu.in/cetss/index">CETSS</a></td>
+                                
+                                <td><a href="https://results.natboard.edu.in/medical_genetics/index">Medical Genetics</a></td>
+                                </tr><tr>
+                                <td><a href="https://results.natboard.edu.in/6yearpart1/index" target=blank>6 Year P-I</a></td>
+                                <td><a href="https://results.natboard.edu.in/dnbtheory/index">DNB THEORY</a></td>
+                                <td><a href="https://results.natboard.edu.in/dnbpractical/index">DNB PRACTICAL</a></td>
+                                </tr><tr>
+                                  <td><a href="https://results.natboard.edu.in/fee/index">Fellowship Exit</a></td>
+                                  <td></td><td></td>
+                                  </tr></table></font>
+                                                                    <br></td>
+                                </tr>
+                             </table>
+                              </form></td>
+                              
+                             
+                          </tr>
+                      </table></td>
+                      <td width="51%" align="left" valign="top"> <table width="99%" border="0" align="left" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td><table width="100%" border="1" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td width="2"><img src="images/sub_title_bg_01.gif" width="2" height="32"></td>
+                                <td background="images/sub_title_bg_03.gif" class="subheading12px">Important Notice</td>
+                                <td width="2"><img src="images/sub_title_bg_05.gif" width="2" height="32"></td>
+                              </tr>
+                            </table></td>
+                          </tr>
+                          <tr style='background-color:white'> 
+                                                        <td class="ch4"> <form name="form1" method="post" action="result_query.php" onSubmit="return validate()" target="_blank">
+                              <table width="100%" border="0" align="right" cellpadding="2" cellspacing="2">
+                                
+                                
+                                 <tr class="featuredhead">
+                                  <!--<td colspan="2" valign="top" class="hotadlinkshead"><a href="https://natboard.edu.in/pdoof/pbnotice2017/NBE%20Notice%208x11%20E+H%20Recent.pdf"><font size="2">Appointment of Honorary Executive Director - NBE</font></a></td>-->
+                                  
+                                  <td colspan="2" valign="top" class="hotadlinkshead"><a href="Executive Director NBE.pdf"><font size="2">Appointment of Executive Director - NBE</font></a></td>
+                                </tr>
+                                 
+                                <tr><td colspan=2 class="hotadlinkshead"><a href="pdoof/pbnotice2018/cns/Public notice for New Leave Rules for DNB Trainees.pdf?x=904ned4@#$4t" target="blank">Leave Rules: DNB/FNB Trainees</a> || <a href="pdoof/pbnotice2019/FAQ Leave rules.pdf?x=904ned4@#$4t">FAQs</a></td></tr>
+                                
+                                 </tr>
+                                <tr>
+                             
+                                    <td colspan=2 class="hotadlinkshead"><a href="pdoof/pbnotice2019/Notice Stipend Guidelines - April 2019.pdf?h88233erhx90wsd0q2wk2s2ks2weuigfu3g77844jh89de" target="blank">NBE Stipend Guidelines</a> || <a href="pdoof/pbnotice2019/Notice Fee Guidelines - 03-04-2019.pdf?h88233erhx90wsd0q2wk2s2ks2weuigfu3g77844jh89de" target="blank">NBE Fee Guidelines</a></td>
+                                    </tr>
+                                    <tr><td colspan=2 class="hotadlinkshead">Institute-wise Performance of Candidates appearing in FMGE : <a href="pdoof/pnotice2015/FMGE MOHFW.pdf?h88233erhx90wsd0q2wk2s2ks2weuigfu3g77844jh89de" target="blank">2012-14</a> || <a href="pdoof/pbnotice2019/FMGE_performance_report.pdf?h88233erhx90wsd0q2wk2s2ks2weuigfu3g77844jh89de" target="blank">2015-18</a></td></tr>
+                                    <tr><td>&nbsp;</td></tr>
+                             </table>
+                              </form></td>
+                          </tr>
+                      </table></td>
+                    </tr>
+                    <tr> 
+                      <td>&nbsp;</td>
+                      <td align="right">&nbsp;</td>
+                    </tr>
+                    <tr valign="top"> 
+                      <td colspan="2"> <table width="100%" border="0" cellspacing="0" cellpadding="0" align="right">
+                          <tr>
+                            <td colspan="4" background="images/sub_title_bg_03.gif"><table border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td width="2"><img src="images/sub_title_bg_01.gif" width="2" height="32"></td>
+                                <td width="669" class="subheading12px">NBE Notice Board</td>
+                                <td width="2"><img src="images/sub_title_bg_05.gif" width="2" height="32"></td>
+                              </tr>
+                            </table></td>
+                          </tr>
+                          <!--<tr> 
+                            <td width="100%" height="31" colspan="4" bgcolor="#17416B" class="subheading12px"> 
+                              NBE Notice Board</td>
+                          </tr>-->
+                          <tr> 
+                            <td colspan="4" class="ch4"> 
+                            <div style="margin-top:4px;">
+                            <TABLE width="99%" height="53" border="0" align="center" 
+                                cellPadding="0" cellSpacing="0">
+                                  <TR bgcolor="#7A86EF"> 
+                                    <TD height="1" colspan="3" align=left valign="middle" bgcolor="#D9D9FF" class="sectionlink"></TD>
+                                  </TR>
+                                  
+                                  <TR bgcolor="#7A86EF"> 
+                                    <TD colspan="3" align=left valign="middle" bgcolor="#D9D9FF" class="sectionlink">
+                                        <input type=text name="txtsearch" ID="txtsearch" style="width:600;height=20" onkeypress="if(event.keyCode==13){window.location.href ='http://natboard.edu.in/index.php?s='+document.getElementById('txtsearch').value}" placeholder="Search in the noticeboard for a keyword">
+                                        <img src="images/searchicon.png" height=30 style="vertical-align:middle" onclick="window.location.href ='http://natboard.edu.in/index.php?s='+document.getElementById('txtsearch').value"> 
+                                    </TD>
+                                  </TR>
+                                  
+                                  
+                                  <TR class="subheading12px"> 
+                                    <TD width="15%" height="30" align="left" valign="middle" bgcolor="#D0DFEA" class="sectionlink">DATE</TD>
+                                    <TD width="80%" align="left" valign="middle" bgcolor="#D0DFEA" class="sectionlink">NOTICE</TD>
+                                    <TD width="5%" align="right" valign="middle" bgcolor="#D0DFEA" class="sectionlink"></TD>
+                                  </TR>
+                                  
+                           
+              
+          <!------------------------------------>
+           <!--  <TR class="row_bg"> 
+                                    <TD height="30" align=left class="sectionlink">2020-06-03</TD>
+                                    <TD class="noticeboard">
+                                    <a href="https://natboard.edu.in/NewWeb/stage-site/notices/Notice-Schedule_for_2nd_3rd_Round_of_DNB_counselin_3-6-2020.pdf">Schedule for 2nd & 3rd Round of DNB (Post MBBS & Post Diploma) 2020 Admission Session counseling <img src=new.gif></a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR>
+          
+                 
+           <TR class="row_bg1"> 
+                                    <TD height="30" align=left class="sectionlink">2020-05-24</TD>
+                                    <TD class="noticeboard">
+                                    <a href="https://natboard.edu.in/NewWeb/stage-site/notices/postMBBSallotmentROUNDone.pdf">Allotment Details of DNB Post MBBS Counseling(2020 Admission Session) (Round-1) <img src=new.gif></a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR>
+              
+           <TR class="row_bg"> 
+                                    <TD height="30" align=left class="sectionlink">2020-05-24</TD>
+                                    <TD class="noticeboard">
+                                    <a href="https://natboard.edu.in/NewWeb/stage-site/notices/POSTdiplomaALLOTMENTroundONE.pdf">Allotment Details of DNB Post Diploma Counseling(2020 Admission Session) (Round-1) <img src=new.gif></a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR>
+          
+          
+          
+          		 <TR class="row_bg1"> 
+                                    <TD height="30" align=left class="sectionlink">2020-05-21</TD>
+                                    <TD class="noticeboard">
+                                    <a href="https://natboard.edu.in/NewWeb/stage-site/tenders/200_Mbps_ILL_Tender_Document.pdf">Limited Tender for Internet Lease Lines (200 Mbps) – 2 nos 2020 <img src=new.gif></a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR> 
+          ->
+          
+             
+              
+    <!--------------------------------------------------------------->     
+   
+                       
+                              
+														
+                                  								  
+								  <TR class="row_bg1"> 
+                                    <TD height="30" align=left class="sectionlink">2020-07-07</TD>
+                                    <TD class="noticeboard">
+                                    <a href="viewNotice.php?NBE=MDk1NXllM0tCWmt4TGplTlZjQWYrZz09">Applications Invited for Foreign Medical Graduate Examination (FMGE) - June 2020 Session <img src=new.gif>                                    </a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR>
+								       
+						 						
+                                  								  
+								  <TR class="row_bg"> 
+                                    <TD height="30" align=left class="sectionlink">2020-07-04</TD>
+                                    <TD class="noticeboard">
+                                    <a href="viewNotice.php?NBE=cE5QWDRtWEJydUNDV3FGdVlkUXZ3UT09"> Schedule of Forthcoming NBE Examinations - Regarding<img src=new.gif>                                    </a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR>
+								       
+						 						
+                                  								  
+								  <TR class="row_bg1"> 
+                                    <TD height="30" align=left class="sectionlink">2020-07-03</TD>
+                                    <TD class="noticeboard">
+                                    <a href="viewNotice.php?NBE=T2cxZlEyb3A2RUpkV0EwRUdLcmxCZz09">Declaration of revised cut-off scores in NEET-MDS 2020<img src=new.gif>                                    </a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR>
+								       
+						 						
+                                  								  
+								  <TR class="row_bg"> 
+                                    <TD height="30" align=left class="sectionlink">2020-07-03</TD>
+                                    <TD class="noticeboard">
+                                    <a href="viewNotice.php?NBE=Zy92dFJCdGtuRCszSUxDR1l1MllvQT09">Conduct of DNB Final Examination - June 2020 Session<img src=new.gif>                                    </a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR>
+								       
+						 						
+                                  								  
+								  <TR class="row_bg1"> 
+                                    <TD height="30" align=left class="sectionlink">2020-07-03</TD>
+                                    <TD class="noticeboard">
+                                    <a href="viewNotice.php?NBE=elY3WHZhbmJyaWVIdGVxbmc2Ritadz09">Schedule for the first phase of DNB Practical exam, December 2019 session <img src=new.gif>                                    </a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR>
+								       
+						 						
+                                  								  
+								  <TR class="row_bg"> 
+                                    <TD height="30" align=left class="sectionlink">2020-07-03</TD>
+                                    <TD class="noticeboard">
+                                    <a href="viewNotice.php?NBE=VmwyMmhFWXBHQ3oxK1k5ZGRwQklBZz09">Extension of date for Payment of First Year Course Fee in respect of the 2 nd Round of DNB Counselling (Post MBBS and Post Diploma). <img src=new.gif>                                    </a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR>
+								       
+						 						
+                                  	
+			  <TR class="row_bg1"> 
+                                    <TD height="30" align=left class="sectionlink">2020-07-02</TD>
+                                    <TD class="noticeboard">
+                                    <a href="https://accr.natboard.edu.in/online_user/DOCUMENTS/general%20notices/02-07-2020%2023:53:00-7R6TCk.pdf?1507496146">	Notice regarding Fellowship Programme for International Students (FPIS)<img src=new.gif>                                    </a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR>
+		
+								
+                                  								  
+								  <TR class="row_bg"> 
+                                    <TD height="30" align=left class="sectionlink">2020-07-01</TD>
+                                    <TD class="noticeboard">
+                                    <a href="viewNotice.php?NBE=Q0dzTHlnaUpYc2xCTTR4RERDWUkyUT09">Result of 2 nd Round allotment of DNB seats (Post MBBS and Post Diploma including Direct 6 years courses) for admission to 2020 Session. Refer Public Notice dated 19-06-2020.                                    </a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR>
+								       
+						 						
+                                  								  
+								  <TR class="row_bg1"> 
+                                    <TD height="30" align=left class="sectionlink">2020-07-01</TD>
+                                    <TD class="noticeboard">
+                                    <a href="viewNotice.php?NBE=RjdnZlNIN3RoYmhlZUJTSVRneklKdz09">Allotment Details of DNB Post MBBS Counseling(2020 Admission Session) (Round-2)                                     </a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR>
+								       
+						 						
+                                  								  
+								  <TR class="row_bg"> 
+                                    <TD height="30" align=left class="sectionlink">2020-07-01</TD>
+                                    <TD class="noticeboard">
+                                    <a href="viewNotice.php?NBE=d2tFSU1aOWIzNDBGeVJTNTczekRHdz09">Allotment Details of DNB Post Diploma Counseling(2020 Admission Session) (Round-2)                                    </a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR>
+								       
+						 						
+                                  								  
+								  <TR class="row_bg1"> 
+                                    <TD height="30" align=left class="sectionlink">2020-06-30</TD>
+                                    <TD class="noticeboard">
+                                    <a href="viewNotice.php?NBE=d1poaTAyVzB0RktLZ1B1ZXFrdzFLdz09">Extension date for submission of Undertaking and NOC for Centralized Merit Based counseling for admission to Sponsored DNB seats (Post MBBS and Post Diploma). Refer Public Notice dated 10-06-2020                                    </a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR>
+								       
+						 						
+                                  								  
+								  <TR class="row_bg"> 
+                                    <TD height="30" align=left class="sectionlink">2020-06-29</TD>
+                                    <TD class="noticeboard">
+                                    <a href="viewNotice.php?NBE=Yks4U3JEckFGV2xQRnptcUNXcGM4Zz09">Webinar on new scheme of DNB Practical Examination, December 2019 session                                     </a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR>
+								       
+						 						
+                                  								  
+								  <TR class="row_bg1"> 
+                                    <TD height="30" align=left class="sectionlink">2020-06-29</TD>
+                                    <TD class="noticeboard">
+                                    <a href="viewNotice.php?NBE=Nzg3Mkl5VXQyK3hPTnc3eFl0d3Bwdz09">Extension of Physical Joining in respect of the First Round of DNB Counselling (Post MBBS and Post Diploma) candidates.                                     </a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR>
+								       
+						 						
+                                  								  
+								  <TR class="row_bg"> 
+                                    <TD height="30" align=left class="sectionlink">2020-06-22</TD>
+                                    <TD class="noticeboard">
+                                    <a href="viewNotice.php?NBE=emN5T0FNNTlDMFhheFRNL2wwT0tCZz09">Conduct of DNB Final Practical Examinations - Dec 2019 Session                                      </a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR>
+								       
+						 						
+                                  								  
+								  <TR class="row_bg1"> 
+                                    <TD height="30" align=left class="sectionlink">2020-06-20</TD>
+                                    <TD class="noticeboard">
+                                    <a href="viewNotice.php?NBE=ODhaS0hRTXphOHFkQXRoTEdUTTM4dz09">Conduct of DNB Practical Examinations, December 2019 session                                    </a></TD>
+                                    <TD align=center valign="middle" class="sectionlink">
+                                 
+                                    </TD>
+                                  </TR>
+								       
+						                               <TR> 
+                                    <TD height="35" colspan="3" align=center valign="middle" class="sectionlink"><a href="#"> 1  |  <a href="https://natboard.edu.in/index.php?page=2&s=">2</a>  |  <a href="https://natboard.edu.in/index.php?page=3&s=">3</a>  |  <a href="https://natboard.edu.in/index.php?page=4&s=">4</a>  |  <a href="https://natboard.edu.in/index.php?page=5&s=">5</a>  |  <a href="https://natboard.edu.in/index.php?page=6&s=">6</a>  |  <a href="https://natboard.edu.in/index.php?page=7&s=">7</a>  |  <a href="https://natboard.edu.in/index.php?page=8&s=">8</a>  <a href="https://natboard.edu.in/index.php?page=2&s=">[Next]</a>  <a href="https://natboard.edu.in/index.php?page=8&s=">[Last]</a> </a></TD>
+                                  </TR>
+                                <TR> 
+                                    <TD height="35" colspan="3" align=center valign="middle" class="sectionlink"><a href="indexoldnoticebeforedec2019" class="blink">Click For viewing notices published before December 2019</a></TD>
+                                  </TR>
+                              </TABLE>
+                              </div>
+                              </td>
+                          </tr  
+							
+                          >
+                      </table></td>
+                    </tr>
+                    <tr> 
+                      <td>&nbsp;</td>
+                      <td align="right">&nbsp;</td>
+                    </tr>
+                </table></div></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td height="33" bgcolor="#17416B"><link href="stylesheet.css" rel="stylesheet" type="text/css">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="top" bgcolor="#17416B"> 
+    <td height="60" align="center" valign="middle">
+    <p><font color="#FFFFFF">
+    
+    <a href="index.php" class="footer">HOME</a> | 
+    <a href="aboutus.php" class="footer">ABOUT US</a> | 
+    <a href="tenders.php" class="footer">TENDERS</a>|
+      <a href="feedback.php" class="footer">FEEDBACK </a>| 
+      <a href="cme_events.php" class="footer">EVENTS</a> | 
+      <a href="rti.php" class="footer">RTI</a> | 
+      <a href="vacancy.php" class="footer">VACANCY</a> | 
+      <a href="disclaimer.php" class="footer"> DISCLAIMER</a> | 
+      <a href="photo_gallery.php" class="footer">PHOTO GALLERY</a> | 
+      <a href="contactus.php" class="footer">CONTACT US</a> |
+	  <a href="#" class="footer">PUBLIC NOTICE</a>  
+<!--   <a href="sss.php" class="footer">STUDENTS SUPPORT SERVICES</a></font> -->
+<!--      <a href="sss.php" class="footer">STUDENTS SUPPORT SERVICES</a></font> --></p>
+          
+          <a href="javascript:void(0);" class="footer">Copyright 
+    2006.All Right Reserved.</a></td>
+  </tr>
+</table>
+</td>
+              </tr>
+            </table></td>
+        </tr>
+    </table>
+</body>
+</html>
