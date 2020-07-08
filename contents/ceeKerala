@@ -1,179 +1,193 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<meta name="google-site-verification" content="LkKRGT1_nfugEHppFVrqpXM_DnvK54bOFHkSgcbF7xE" />
+             
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>CEE Kerala</title>
-
-<link rel="stylesheet" type="text/css" href="https://cee.kerala.gov.in/pgm2020/public/css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="https://cee.kerala.gov.in/pgm2020/public/css/mystyle.css" />
-<link rel="stylesheet" type="text/css" href="https://cee.kerala.gov.in/pgm2020/public/css/fontawesome/all.css">
-  <link rel="stylesheet" href="https://cee.kerala.gov.in/pgm2020/public/vendor/adminlte/plugins/iCheck/square/blue.css">
-    <link rel="stylesheet" href="https://cee.kerala.gov.in/pgm2020/public/vendor/adminlte/css/auth.css">
-    
-    <script src="https://cee.kerala.gov.in/pgm2020/public/js/jquery.min.js"></script>
-
-</head>
-
-<body ondragstart="return false;" ondrop="return false;" oncontextmenu="return false;">
-
-<div class="bg-primary" style="width:100%;">
-<div class="row" style="padding-top:2%;">
-<div class="col-lg-2" align="right"><img src="https://cee.kerala.gov.in/pgm2020/public/images/gov_image.png" width="130" height="90" alt="alt"></div>
-	<div class="col-lg-8">
-    <table width="100%" border="0" class="title_table">
-  
-  <tr>
-    <td height="27" class="cls_title1">Admission to PG Medical Courses 2020</td>
-  </tr>
-<!--  <tr class="cls_title_crs">
-    <td>Engineering | Architecture | MBBS | BDS | Ayurveda | Homoeo | Siddha | Unani | Agriculture | Forestry | Veterinary | Fisheries | Pharmacy</td>
-  </tr>-->
-  <tr class="cls_title">
-    <td >OFFICE OF THE COMMISSIONER FOR ENTRANCE EXAMINATIONS</td>
-  </tr>
-</table>
-    </div>  
-    <div class="col-lg-2"></div>   
- </div>
-    <div class="row">   
-    <div class="col-lg-12 cls_title">
-   
-    </div>
-    </div>
-</div>
-
-
-<div class="row navbar navbar-expand-lg navbar-light bg-light">
-  <div class="col-lg-6 content">
-  </div>
-<div class="col-lg-3"></div>
-<div class="col-lg-3" align="right">
-
-<i class="far fa-address-card"></i>&nbsp;<a href="https://cee.kerala.gov.in/pgm2020/public/contact" class="link1">Contact Us</a>
-&nbsp;&nbsp;
-<i class="fa fa-home"></i>&nbsp;<a href="https://cee.kerala.gov.in/pgm2020/public" class="link1">Home</a>
-&nbsp;&nbsp;
-</div>
-  
-      
-    </div> 
-
-</div>
-
-<style>
-.blinking{
-    animation:blinkingText 1.2s infinite;font-weight:bold;
+<title>Office of the Commissioner for Entrance Examinations</title>
+<style type="text/css">
+body
+{
+	margin:0 auto;
+	font-family:Arial, Helvetica, sans-serif;
+	
 }
-@keyframes  blinkingText{
-    0%{     color: #FF4500;    }
-    49%{    color: #FF4500; }
-    60%{    color: transparent; }
-    99%{    color:#FF4500;;  }
-    100%{   color: #FF4500;    }
+.heading
+{
+	font-size:13px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background:url(images/subnav-bg.gif) repeat-x;
+	height:20px;
+}
+a
+{
+	font-size:12px;
+	font-weight:bold;
+	letter-spacing:1px;
+	color:#009900;
+	text-decoration:none;
+	/*margin-left:20px;*/
+}
+a:hover
+{
+	text-decoration:none;
+	color:#FF9900;
+}
+.date
+{
+	font-size:12px;
+	font-weight:bold;
+	color:#660066;
+}
+.style1 {font-size: 11px}
+.headaddrs
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#666666;
+	height:20px;
+	letter-spacing:1px;
 }
 </style>
+</head>
 
-<div class="row">
-	 <div class="col-lg-3" ><div id="side_menu">
-     <ul>
-    	<li><a href="https://cee.kerala.gov.in/pgm2020/public/pdf/Prospectus.pdf" target="_blank"><i class="fas fa-file-pdf"></i>&nbsp;Prospectus</a></li>        <li><a href="https://cee.kerala.gov.in/pgm2020/public/notification"><i class="fa fa-bell"></i>&nbsp;Notifications and Govt. Orders</a></li>
-        <li><a href="https://cee.kerala.gov.in/pgm2020/public/pdf/ranklist_pgm2020.pdf" target="_blank"><i class="fa fa-bell"></i>&nbsp;Kerala State Merit List</a></li>
-        <li><a href="https://cee.kerala.gov.in/pgm2020/public/seatdistribution" ><i class="fa fa-bell"></i>&nbsp;Seat Breakup<sup class="blinking">updated</sup></a></li>
-    	<li><a href="https://cee.kerala.gov.in/pgm2020/public/pdf/Fees_Self.pdf" target="_blank"><i class="fa fa-bell"></i>&nbsp;Fee Structure</a></li>
-        <li><a href="https://cee.kerala.gov.in/pgm2020/public/pdf/admn_canc_pgm.pdf" target="_blank"><i class="fa fa-bell"></i>&nbsp;<sup class="blinking">List of Candidates who cancelled<br>&nbsp;&nbsp;&nbsp first phase admission & higher options</sup></a></li>
-                 <li><a href="https://cee.kerala.gov.in/pgm2020/public/aiq_list"><i class="fa fa-bell"></i>&nbsp;<sup class="blinking">List of Candidates Not Eligible for<br>&nbsp;&nbsp;&nbsp Further Allotments as per MCC Notice</sup></a></li>
-          
-<!--    <li><a href="https://cee.kerala.gov.in/pgm2020/public/seatdistribution" target="_blank"><i class="fa fa-bell"></i>&nbsp;Seat Distribution & Order</a></li>
--->   
-       <li><a href="https://cee.kerala.gov.in/pgm2020/public/catlist"><i class="fa fa-bell"></i>&nbsp;<span style="color:#F00;">Category List</span></a></li>
-       <li><a href="https://cee.kerala.gov.in/pgm2020/public/pdf/allotlist_p1.pdf" target="_blank"><i class="fa fa-bell"></i>&nbsp;Allotment List</a></li>
-        <li><a href="https://cee.kerala.gov.in/pgm2020/public/pdf/last_rank_p1.pdf" target="_blank"><i class="fa fa-bell"></i>&nbsp;Last Rank</a></li>
-        <li><a href="https://cee.kerala.gov.in/pgm2020/public/forgetapplno"><i class="fa fa-font"></i>&nbsp;Forgot Application Number</a></li>  
-        <li><a href="https://cee.kerala.gov.in/pgm2020/public/forgetpassword"><i class="fa fa-key"></i>&nbsp;Forgot Password</a></li> 
-        <li><a href="https://cee.kerala.gov.in/pgm2020/public/contact"><i class="fa fa-key"></i>&nbsp;Contact Us</a></li>             
-      </ul>
-    
-    </div></div> 
-    
-    
-    
+<body><!--  style="background:url(images/bg2.gif);" -->
+<table align="center" width="1020" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+    	<td><img src="images/baner.png" /></td>
+     </tr>
+     <tr>
+        <td bgcolor="#F1F1F1">
+        	<table class="headaddrs" border="0" width="100%">
+           		<tr>
+                	<td>Housing Board Buildings,Santhi Nagar, <br />Thiruvananthapuram-695 001.</td>
+                    <td align="right">Phone: 0471-2525300, Fax: 0471-2337228,<br /> e-mail: ceekinfo@cee.kerala.gov.in</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<table align="center" width="1020" border="0" style="margin-top:10px;" cellpadding="0" cellspacing="0">
+ 	<tr>
+    	<td align="center" colspan="3"><marquee behavior="scroll" scrollamount="6" direction="left" style="font-size:14px; font-weight:bold;color:#000000; background-color:#FFFFCC;" onmouseover="this.stop();" onmouseout="this.start();">
+       
+        &nbsp;&nbsp;PG MEDICAL & DENTAL : Following lists published : All India Quota Joined Candidates published by MCC India, AIQ joined candidates from State rank list and State Admission Cancelled candidates.... Visit Candidate Portal <<<>>> KEAM 2018- MBBS - BPL Scholarship - Weightage Marks Published ....<a href="https://cee.kerala.gov.in/BPLScholorship_Notify1.pdf" target="_blank">Notification</a>....<a href="https://cee.kerala.gov.in/BPLScholorship_list.pdf" target="_blank">Weightage List</a></marquee></td>
+    </tr>
+    	<tr class="heading">
+    	<td height="34" width="75%">&nbsp;<img src="images/link.png" align="absmiddle" />&nbsp;Present Active Links</td>
+        <td height="34" align="center" width="12%">Site Opened on</td>
+        <td align="center" width="13%">Last Updated on</td>
+    </tr>
+    <tr>
+    	<td colspan="3">
+                	<table border="0" width="100%" height="40" style="background:#EEEEEE;border-bottom:1px dotted #000000;margin-top:5px;margin-bottom:5px;">
+            	<tr>
+                	<td width="6%" align="center"><img src="images/web.png" align="absmiddle" /></td>
+                    <td width="69%" style="border-right:1px dotted #666666;"><a href="https://cee.kerala.gov.in/mds2020/public" target="_blank">PG Dental 2020 - Candidate Portal</a></td>
+                    <td class="date" style="border-right:1px dotted #666666;" align="center" width="12%">13/04/2020</td>                    <td align="center" class="date">13/04/2020&nbsp;&nbsp;21:30:00</td>
+                </tr>
+            </table>
+                  	<table border="0" width="100%" height="40" style="background:#EEEEEE;border-bottom:1px dotted #000000;margin-top:5px;margin-bottom:5px;">
+            	<tr>
+                	<td width="6%" align="center"><img src="images/web.png" align="absmiddle" /></td>
+                    <td width="69%" style="border-right:1px dotted #666666;"><a href="https://cee.kerala.gov.in/keam_2020/public/" target="_blank">KEAM 2020 - Candidate Portal</a> <img src="images/new.gif" /></td>
+                    <td class="date" style="border-right:1px dotted #666666;" align="center" width="12%">11/05/2020</td>                    <td align="center" class="date">02/06/2020&nbsp;&nbsp;09:30:00</td>
+                </tr>
+            </table>
+                  	<table border="0" width="100%" height="40" style="background:#EEEEEE;border-bottom:1px dotted #000000;margin-top:5px;margin-bottom:5px;">
+            	<tr>
+                	<td width="6%" align="center"><img src="images/web.png" align="absmiddle" /></td>
+                    <td width="69%" style="border-right:1px dotted #666666;"><a href="https://cee.kerala.gov.in/mba2020/public/" target="_blank">MBA: KMAT 2020 - Candidate Portal</a></td>
+                    <td class="date" style="border-right:1px dotted #666666;" align="center" width="12%">06/06/2020</td>                    <td align="center" class="date">06/06/2020&nbsp;&nbsp;21:00:00</td>
+                </tr>
+            </table>
+                  	<table border="0" width="100%" height="40" style="background:#EEEEEE;border-bottom:1px dotted #000000;margin-top:5px;margin-bottom:5px;">
+            	<tr>
+                	<td width="6%" align="center"><img src="images/web.png" align="absmiddle" /></td>
+                    <td width="69%" style="border-right:1px dotted #666666;"><a href="https://cee.kerala.gov.in/llm2020/public/" target="_blank">LL.M-2020 Candidate Portal</a> <img src="images/new.gif" /></td>
+                    <td class="date" style="border-right:1px dotted #666666;" align="center" width="12%">01/07/2020</td>                    <td align="center" class="date">01/07/2020&nbsp;&nbsp;19:00:00</td>
+                </tr>
+            </table>
+                  	<table border="0" width="100%" height="40" style="background:#EEEEEE;border-bottom:1px dotted #000000;margin-top:5px;margin-bottom:5px;">
+            	<tr>
+                	<td width="6%" align="center"><img src="images/web.png" align="absmiddle" /></td>
+                    <td width="69%" style="border-right:1px dotted #666666;"><a href="https://cee.kerala.gov.in/pgm2020/public" target="_blank">PG Medical 2020 - Candidate  Portal</a></td>
+                    <td class="date" style="border-right:1px dotted #666666;" align="center" width="12%">13/04/2020</td>                    <td align="center" class="date">13/04/2020&nbsp;&nbsp;21:30:00</td>
+                </tr>
+            </table>
+                  	<table border="0" width="100%" height="40" style="background:#EEEEEE;border-bottom:1px dotted #000000;margin-top:5px;margin-bottom:5px;">
+            	<tr>
+                	<td width="6%" align="center"><img src="images/web.png" align="absmiddle" /></td>
+                    <td width="69%" style="border-right:1px dotted #666666;"><a href="https://cee.kerala.gov.in/bdes2020/public/" target="_blank">B.Des 2020 - Candidate Portal</a> <img src="images/new.gif" /></td>
+                    <td class="date" style="border-right:1px dotted #666666;" align="center" width="12%">01/07/2020</td>                    <td align="center" class="date">01/07/2020&nbsp;&nbsp;19:00:00</td>
+                </tr>
+            </table>
+                  	<table border="0" width="100%" height="40" style="background:#EEEEEE;border-bottom:1px dotted #000000;margin-top:5px;margin-bottom:5px;">
+            	<tr>
+                	<td width="6%" align="center"><img src="images/web.png" align="absmiddle" /></td>
+                    <td width="69%" style="border-right:1px dotted #666666;"><a href="https://cee.kerala.gov.in/llb52020/public/" target="_blank">Integrated Five Year LLB 2020 - Candidate Portal</a></td>
+                    <td class="date" style="border-right:1px dotted #666666;" align="center" width="12%">06/05/2020</td>                    <td align="center" class="date">01/06/2020&nbsp;&nbsp;17:00:00</td>
+                </tr>
+            </table>
+                  	<table border="0" width="100%" height="40" style="background:#EEEEEE;border-bottom:1px dotted #000000;margin-top:5px;margin-bottom:5px;">
+            	<tr>
+                	<td width="6%" align="center"><img src="images/web.png" align="absmiddle" /></td>
+                    <td width="69%" style="border-right:1px dotted #666666;"><a href="https://cee.kerala.gov.in/llb32020/public/" target="_blank">Three Year LLB 2020 - Candidate Portal</a></td>
+                    <td class="date" style="border-right:1px dotted #666666;" align="center" width="12%">06/05/2020</td>                    <td align="center" class="date">01/06/2020&nbsp;&nbsp;17:30:00</td>
+                </tr>
+            </table>
+                  	<table border="0" width="100%" height="40" style="background:#EEEEEE;border-bottom:1px dotted #000000;margin-top:5px;margin-bottom:5px;">
+            	<tr>
+                	<td width="6%" align="center"><img src="images/web.png" align="absmiddle" /></td>
+                    <td width="69%" style="border-right:1px dotted #666666;"><a href="https://cee.kerala.gov.in/revised_fee_2019.pdf" target="_blank">Revised Fee Structure for the Academic  Year 2019-20</a></td>
+                    <td class="date" style="border-right:1px dotted #666666;" align="center" width="12%">19/10/2019</td>                    <td align="center" class="date">19/10/2019&nbsp;&nbsp;12:32:24</td>
+                </tr>
+            </table>
+                  	<table border="0" width="100%" height="40" style="background:#EEEEEE;border-bottom:1px dotted #000000;margin-top:5px;margin-bottom:5px;">
+            	<tr>
+                	<td width="6%" align="center"><img src="images/web.png" align="absmiddle" /></td>
+                    <td width="69%" style="border-right:1px dotted #666666;"><a href="https://cee.kerala.gov.in/keam.php" target="_blank">Engg. & Architecture : Candidates Eligible for Fee Concession (Admission Year : 2018 & 2019)</a></td>
+                    <td class="date" style="border-right:1px dotted #666666;" align="center" width="12%">22/11/2019</td>                    <td align="center" class="date">22/11/2019&nbsp;&nbsp;15:53:41</td>
+                </tr>
+            </table>
+                  	<table border="0" width="100%" height="40" style="background:#EEEEEE;border-bottom:1px dotted #000000;margin-top:5px;margin-bottom:5px;">
+            	<tr>
+                	<td width="6%" align="center"><img src="images/web.png" align="absmiddle" /></td>
+                    <td width="69%" style="border-right:1px dotted #666666;"><a href="https://cee.kerala.gov.in/non-avail-certificate/main/index.php" target="_blank">Non-Utilization Certificate (Children of Ex-servicemen, Defence Personnel Killed, etc.)</a></td>
+                    <td class="date" style="border-right:1px dotted #666666;" align="center" width="12%">04/10/2019</td>                    <td align="center" class="date">04/10/2019&nbsp;&nbsp;17:03:11</td>
+                </tr>
+            </table>
+                  	<table border="0" width="100%" height="40" style="background:#EEEEEE;border-bottom:1px dotted #000000;margin-top:5px;margin-bottom:5px;">
+            	<tr>
+                	<td width="6%" align="center"><img src="images/web.png" align="absmiddle" /></td>
+                    <td width="69%" style="border-right:1px dotted #666666;"><a href="https://cee.kerala.gov.in/collegelist/main/index.php" target="_blank">List of Professional Colleges</a></td>
+                    <td class="date" style="border-right:1px dotted #666666;" align="center" width="12%">13/06/2019</td>                    <td align="center" class="date">13/06/2019&nbsp;&nbsp;12:52:33</td>
+                </tr>
+            </table>
+                  </td>
+    </tr>
+</table>
+<table align="center" style="border:1px solid #CCC;margin-top:10px;">
+<tr>
 
-	<div class="col-lg-7">
-<form method="post" name="login"  action="https://cee.kerala.gov.in/pgm2020/public/login_check" autocomplete="off">
-<input type="hidden" name="_token" value="GAfdyhEY89J85jeRAOMBsjM0IX2nYMKU8Y753iD4">
-    
-    	<div class="col-lg-12"><marquee></marquee></div>
-    
-    <div class="card border-light mb-3" style="margin:5%;">
-  <div class="card-header">Candidate Login</div>
-  <div class="card-body">
-  
-       
-       
-  <div class="row" style="margin-top:1%;">
-      <label class="col-lg-4 control-label">Application Number<span class="required">*</span></label>
-      <div class="col-lg-8"><input type="text" class="form-control" name="ApplNo" id="ApplNo" value="" placeholder="Enter the Application Number" maxlength="7">
-       </div>
-      </div>
-   <span id="errmsg"></span>
-      
-        
-      <div class="row" style="margin-top:1%;">
-      <label class="col-lg-4 control-label">Password<span class="required">*</span></label>
-      <div class="col-lg-8"><input type="password" class="form-control" name="password" id="password" placeholder="Password">
-       </div>
-      </div>  
-        
-        
-        <div class="row" style="margin-top:1%;">
-      <label class="col-lg-4 control-label">Access Code<span class="required">*</span></label>
-      <div class="col-lg-4">
-      <input type="text" class="form-control" maxlength="8" name="captcha" id="captcha" placeholder="Type the charaters as in the image">
-                   </div>
-      <div class="col-lg-4"><img src="https://cee.kerala.gov.in/pgm2020/public/captcha/image?1527658235"
-     alt="https://github.com/igoshev/laravel-captcha"
-     style="cursor:pointer;width:180px;height:50px;"
-     title="Update"
-     onclick="this.setAttribute('src','https://cee.kerala.gov.in/pgm2020/public/captcha/image?1527658235?_='+Math.random());var captcha=document.getElementById('captcha');if(captcha){captcha.focus()}"
->
-</div>
-      </div>        
-  		
-          <div class="row" style="margin-top:1%;">
-          
-          <div class="col-lg-3"></div>
-          <div class="col-lg-6"><button type="submit" name="submit" id="submit" class="btn btn-primary" style="letter-spacing:1px;">LOGIN</button></div>
-          
-          </div>    
-             
-             <div class="row" style="margin-top:2%;">
-          
-          <div class="col-sm-2"></div>
-          <div class="col-sm-10"><a  href="https://cee.kerala.gov.in/pgm2020/public/forgetapplno">Forgot Application Number</a> | <a href="https://cee.kerala.gov.in/pgm2020/public/forgetpassword">Forgot Password</a></div>
-          
-          </div>
-  
-  </div></div>
-  
-  </form>
-    
-        
-    </div>  
-   
-   
- </div> 
-<div class="row bg-light"  style="margin-top:5%;text-align:center;">
-    <div class="col-lg-2"></div>
-     <div class="col-lg-8" style="font-size:11px;font-style:italic;">
-    Site owned by : <a href="http://www.cee.kerala.gov.in" target="_blank" >CEE KERALA</a> <!-- &nbsp;IT Services :  <a href="http://www.nic.in" target="_blank" class="s_link_footer"> National Informatics Centre(NIC)</a>-->  
-    </div>
-     <div class="col-lg-2"></div> 
-  </div>
+<td align="center"><img src="images/callcentre.png" /></td>
+</tr>
+</table>
+<table align="center" style="background:#FFFFFF;border:0px #2e609b dotted;letter-spacing:1px;font-weight:bold;font-family:Arial, Helvetica, sans-serif;margin-top:30px;" width="1020" border="0">
+<tr>
+
+<td align="center"><img src="images/gandhi_logo150.png" width="20%" height="auto" /></td>
+</tr>
+
+<tr align="center">
+  <td align="center">
+      <a href="http://www.cee-kerala.org" target="_blank" style="text-decoration:none;color:#2e609b;font-size:11px;"><span class="style1">Site Owned by: CEE KERALA.</span></a></td>
+  </tr>
+  <!--<tr valign="top">
+  	<td style="background:url(images/grass_bg.png) repeat-x" height="30">&nbsp;</td>
+  </tr>-->
+</table>
 </body>
 </html>
-<script type="application/javascript">
-history.pushState(null, null, location.href);
-    window.onpopstate = function () {
-        history.go(1);
-    };
-</script>
