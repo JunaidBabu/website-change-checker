@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CEE Kerala</title>
+
+<link rel="stylesheet" type="text/css" href="https://cee.kerala.gov.in/pgm2020/public/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cee.kerala.gov.in/pgm2020/public/css/mystyle.css" />
+<link rel="stylesheet" type="text/css" href="https://cee.kerala.gov.in/pgm2020/public/css/fontawesome/all.css">
+  <link rel="stylesheet" href="https://cee.kerala.gov.in/pgm2020/public/vendor/adminlte/plugins/iCheck/square/blue.css">
+    <link rel="stylesheet" href="https://cee.kerala.gov.in/pgm2020/public/vendor/adminlte/css/auth.css">
+    
+    <script src="https://cee.kerala.gov.in/pgm2020/public/js/jquery.min.js"></script>
+
+</head>
+
+<body ondragstart="return false;" ondrop="return false;" oncontextmenu="return false;">
+
+<div class="bg-primary" style="width:100%;">
+<div class="row" style="padding-top:2%;">
+<div class="col-lg-2" align="right"><img src="https://cee.kerala.gov.in/pgm2020/public/images/gov_image.png" width="130" height="90" alt="alt"></div>
+	<div class="col-lg-8">
+    <table width="100%" border="0" class="title_table">
+  
+  <tr>
+    <td height="27" class="cls_title1">Admission to PG Medical Courses 2020</td>
+  </tr>
+<!--  <tr class="cls_title_crs">
+    <td>Engineering | Architecture | MBBS | BDS | Ayurveda | Homoeo | Siddha | Unani | Agriculture | Forestry | Veterinary | Fisheries | Pharmacy</td>
+  </tr>-->
+  <tr class="cls_title">
+    <td >OFFICE OF THE COMMISSIONER FOR ENTRANCE EXAMINATIONS</td>
+  </tr>
+</table>
+    </div>  
+    <div class="col-lg-2"></div>   
+ </div>
+    <div class="row">   
+    <div class="col-lg-12 cls_title">
+   
+    </div>
+    </div>
+</div>
+
+
+<div class="row navbar navbar-expand-lg navbar-light bg-light">
+  <div class="col-lg-6 content">
+  </div>
+<div class="col-lg-3"></div>
+<div class="col-lg-3" align="right">
+
+<i class="far fa-address-card"></i>&nbsp;<a href="https://cee.kerala.gov.in/pgm2020/public/contact" class="link1">Contact Us</a>
+&nbsp;&nbsp;
+<i class="fa fa-home"></i>&nbsp;<a href="https://cee.kerala.gov.in/pgm2020/public" class="link1">Home</a>
+&nbsp;&nbsp;
+</div>
+  
+      
+    </div> 
+
+</div>
+
+<style>
+.blinking{
+    animation:blinkingText 1.2s infinite;font-weight:bold;
+}
+@keyframes  blinkingText{
+    0%{     color: #FF4500;    }
+    49%{    color: #FF4500; }
+    60%{    color: transparent; }
+    99%{    color:#FF4500;;  }
+    100%{   color: #FF4500;    }
+}
+</style>
+
+<div class="row">
+	 <div class="col-lg-3" ><div id="side_menu">
+     <ul>
+    	<li><a href="https://cee.kerala.gov.in/pgm2020/public/pdf/Prospectus.pdf" target="_blank"><i class="fas fa-file-pdf"></i>&nbsp;Prospectus</a></li>        <li><a href="https://cee.kerala.gov.in/pgm2020/public/notification"><i class="fa fa-bell"></i>&nbsp;Notifications and Govt. Orders</a></li>
+        <li><a href="https://cee.kerala.gov.in/pgm2020/public/pdf/ranklist_pgm2020.pdf" target="_blank"><i class="fa fa-bell"></i>&nbsp;Kerala State Merit List</a></li>
+        <li><a href="https://cee.kerala.gov.in/pgm2020/public/seatdistribution" ><i class="fa fa-bell"></i>&nbsp;Seat Breakup<sup class="blinking">updated</sup></a></li>
+    	<li><a href="https://cee.kerala.gov.in/pgm2020/public/pdf/Fees_Self.pdf" target="_blank"><i class="fa fa-bell"></i>&nbsp;Fee Structure</a></li>
+        <li><a href="https://cee.kerala.gov.in/pgm2020/public/pdf/admn_canc_pgm.pdf" target="_blank"><i class="fa fa-bell"></i>&nbsp;<sup class="blinking">List of Candidates who cancelled<br>&nbsp;&nbsp;&nbsp first phase admission & higher options</sup></a></li>
+                 <li><a href="https://cee.kerala.gov.in/pgm2020/public/aiq_list"><i class="fa fa-bell"></i>&nbsp;<sup class="blinking">List of Candidates Not Eligible for<br>&nbsp;&nbsp;&nbsp Further Allotments as per MCC Notice</sup></a></li>
+          
+<!--    <li><a href="https://cee.kerala.gov.in/pgm2020/public/seatdistribution" target="_blank"><i class="fa fa-bell"></i>&nbsp;Seat Distribution & Order</a></li>
+-->   
+       <li><a href="https://cee.kerala.gov.in/pgm2020/public/catlist"><i class="fa fa-bell"></i>&nbsp;<span style="color:#F00;">Category List</span></a></li>
+       <li><a href="https://cee.kerala.gov.in/pgm2020/public/pdf/allotlist_p1.pdf" target="_blank"><i class="fa fa-bell"></i>&nbsp;Allotment List</a></li>
+        <li><a href="https://cee.kerala.gov.in/pgm2020/public/pdf/last_rank_p1.pdf" target="_blank"><i class="fa fa-bell"></i>&nbsp;Last Rank</a></li>
+        <li><a href="https://cee.kerala.gov.in/pgm2020/public/forgetapplno"><i class="fa fa-font"></i>&nbsp;Forgot Application Number</a></li>  
+        <li><a href="https://cee.kerala.gov.in/pgm2020/public/forgetpassword"><i class="fa fa-key"></i>&nbsp;Forgot Password</a></li> 
+        <li><a href="https://cee.kerala.gov.in/pgm2020/public/contact"><i class="fa fa-key"></i>&nbsp;Contact Us</a></li>             
+      </ul>
+    
+    </div></div> 
+    
+    
+    
+
+	<div class="col-lg-7">
+<form method="post" name="login"  action="https://cee.kerala.gov.in/pgm2020/public/login_check" autocomplete="off">
+<input type="hidden" name="_token" value="r06IdCgEsYP6OC7etofBCXHwj3uZrsAF0o1dGLPv">
+    
+    	<div class="col-lg-12"><marquee></marquee></div>
+    
+    <div class="card border-light mb-3" style="margin:5%;">
+  <div class="card-header">Candidate Login</div>
+  <div class="card-body">
+  
+       
+       
+  <div class="row" style="margin-top:1%;">
+      <label class="col-lg-4 control-label">Application Number<span class="required">*</span></label>
+      <div class="col-lg-8"><input type="text" class="form-control" name="ApplNo" id="ApplNo" value="" placeholder="Enter the Application Number" maxlength="7">
+       </div>
+      </div>
+   <span id="errmsg"></span>
+      
+        
+      <div class="row" style="margin-top:1%;">
+      <label class="col-lg-4 control-label">Password<span class="required">*</span></label>
+      <div class="col-lg-8"><input type="password" class="form-control" name="password" id="password" placeholder="Password">
+       </div>
+      </div>  
+        
+        
+        <div class="row" style="margin-top:1%;">
+      <label class="col-lg-4 control-label">Access Code<span class="required">*</span></label>
+      <div class="col-lg-4">
+      <input type="text" class="form-control" maxlength="8" name="captcha" id="captcha" placeholder="Type the charaters as in the image">
+                   </div>
+      <div class="col-lg-4"><img src="https://cee.kerala.gov.in/pgm2020/public/captcha/image?665114226"
+     alt="https://github.com/igoshev/laravel-captcha"
+     style="cursor:pointer;width:180px;height:50px;"
+     title="Update"
+     onclick="this.setAttribute('src','https://cee.kerala.gov.in/pgm2020/public/captcha/image?665114226?_='+Math.random());var captcha=document.getElementById('captcha');if(captcha){captcha.focus()}"
+>
+</div>
+      </div>        
+  		
+          <div class="row" style="margin-top:1%;">
+          
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6"><button type="submit" name="submit" id="submit" class="btn btn-primary" style="letter-spacing:1px;">LOGIN</button></div>
+          
+          </div>    
+             
+             <div class="row" style="margin-top:2%;">
+          
+          <div class="col-sm-2"></div>
+          <div class="col-sm-10"><a  href="https://cee.kerala.gov.in/pgm2020/public/forgetapplno">Forgot Application Number</a> | <a href="https://cee.kerala.gov.in/pgm2020/public/forgetpassword">Forgot Password</a></div>
+          
+          </div>
+  
+  </div></div>
+  
+  </form>
+    
+        
+    </div>  
+   
+   
+ </div> 
+<div class="row bg-light"  style="margin-top:5%;text-align:center;">
+    <div class="col-lg-2"></div>
+     <div class="col-lg-8" style="font-size:11px;font-style:italic;">
+    Site owned by : <a href="http://www.cee.kerala.gov.in" target="_blank" >CEE KERALA</a> <!-- &nbsp;IT Services :  <a href="http://www.nic.in" target="_blank" class="s_link_footer"> National Informatics Centre(NIC)</a>-->  
+    </div>
+     <div class="col-lg-2"></div> 
+  </div>
+</body>
+</html>
+<script type="application/javascript">
+history.pushState(null, null, location.href);
+    window.onpopstate = function () {
+        history.go(1);
+    };
+</script>
