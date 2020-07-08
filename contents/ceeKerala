@@ -100,7 +100,7 @@
 
 	<div class="col-lg-7">
 <form method="post" name="login"  action="https://cee.kerala.gov.in/pgm2020/public/login_check" autocomplete="off">
-<input type="hidden" name="_token" value="r06IdCgEsYP6OC7etofBCXHwj3uZrsAF0o1dGLPv">
+<input type="hidden" name="_token" value="bKxfwpWt0sc50z3USAXJXlCG2HAV5gg1zP2vyrVc">
     
     	<div class="col-lg-12"><marquee></marquee></div>
     
@@ -130,11 +130,11 @@
       <div class="col-lg-4">
       <input type="text" class="form-control" maxlength="8" name="captcha" id="captcha" placeholder="Type the charaters as in the image">
                    </div>
-      <div class="col-lg-4"><img src="https://cee.kerala.gov.in/pgm2020/public/captcha/image?665114226"
+      <div class="col-lg-4"><img src="https://cee.kerala.gov.in/pgm2020/public/captcha/image?1251292224"
      alt="https://github.com/igoshev/laravel-captcha"
      style="cursor:pointer;width:180px;height:50px;"
      title="Update"
-     onclick="this.setAttribute('src','https://cee.kerala.gov.in/pgm2020/public/captcha/image?665114226?_='+Math.random());var captcha=document.getElementById('captcha');if(captcha){captcha.focus()}"
+     onclick="this.setAttribute('src','https://cee.kerala.gov.in/pgm2020/public/captcha/image?1251292224?_='+Math.random());var captcha=document.getElementById('captcha');if(captcha){captcha.focus()}"
 >
 </div>
       </div>        
