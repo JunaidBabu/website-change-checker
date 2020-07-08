@@ -9,7 +9,7 @@ on:
       - master
 
 jobs:
-  update-json-data:
+  website-checker:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
