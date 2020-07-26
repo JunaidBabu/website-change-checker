@@ -5,7 +5,8 @@ import os
 urls = []
 # urls.append({"name": "natboardhome", "url": "https://natboard.edu.in/"})
 # urls.append({"name": "ceeKerala", "url": "https://cee.kerala.gov.in/main.php"})
-urls.append({"name": "arogya_karnataka", "url": "http://arogya.karnataka.gov.in/sast/fms/view.php"})
+# urls.append({"name": "arogya_karnataka", "url": "http://arogya.karnataka.gov.in/sast/fms/view.php"})
+urls.append({"name": "vande_bharat_phase_5", "url": "https://mea.gov.in/phase-5.htm"})
 
 
 BOT_TOKEN = os.environ['BOT_TOKEN']
